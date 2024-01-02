@@ -23,3 +23,10 @@ mkdir pyclient<br>
 cd backend<br>
 django-admin startproject esghome .<br>
 
+
+cd /Users/shivjalli/projects/djrest<br>
+python pyclient/basic001.py<br>
+python pyclient/basic002.py<br>
+
+cd /Users/shivjalli/projects/djrest/backend<br>
+python manage.py runserver 8000<br>
