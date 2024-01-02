@@ -1,25 +1,25 @@
-Installation & Setup
+# Installation & Setup
 
-mkdir djrest
-cd djrest
-code .
+mkdir djrest\s
+cd djrest\s
+code .\s
 
-Open terminal in vscode
+## Open terminal in vscode
 
-python3 -m venv .venv
-. .venv/bin/activate
+python3 -m venv .venv\s
+. .venv/bin/activate\s
 
-pip freeze
-pip install --upgrade pip
-pip install django
-pip install djangorestframework
-pip install pyyaml
-pip install requests
-pip install django-cors-headers
+pip freeze\s
+pip install --upgrade pip\s
+pip install django\s
+pip install djangorestframework\s
+pip install pyyaml\s
+pip install requests\s
+pip install django-cors-headers\s
 
-mkdir backend
-mkdir pyclient
+mkdir backend\s
+mkdir pyclient\s
 
-cd backend
-django-admin startproject esghome .
+cd backend\s
+django-admin startproject esghome .\s
 
